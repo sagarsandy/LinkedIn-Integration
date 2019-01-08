@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     
-    let linkedInHelper = LinkedinSwiftHelper(configuration: LinkedinSwiftConfiguration(clientId: "811etv42tchlv4", clientSecret: "v7kcYAvzCMpGZRkn", state: "SSChecking", permissions: ["r_basicprofile", "r_emailaddress"], redirectUrl: "https://www.invanto.com/"))
+    let linkedInHelper = LinkedinSwiftHelper(configuration: LinkedinSwiftConfiguration(clientId: "811etv42tchlv492", clientSecret: "v7kcYAvzCMpGZRkn29", state: "SSChecking", permissions: ["r_basicprofile", "r_emailaddress"], redirectUrl: "https://www.invanto.com/"))
     
     override func viewDidLoad() {
         super.viewDidLoad()
